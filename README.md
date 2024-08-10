@@ -13,3 +13,6 @@ Hogwarts sorting hat mobile application gives users the ability to guess the rel
  - By clicking on the Reload button against the particular character, load this character on the Home screen with the House buttons again.
  - By clicking on the character item row on the List screen, opened the Details screen. Display personage information only in case this personage has been guessed right.
 
+### Note
+
+Consider that running app on emulator every time gets different getApplicationDocumentsDirectory() so it may cause "can not find file" error because of caching files. If you get it, delete an app from emulator and reinstall it.  
