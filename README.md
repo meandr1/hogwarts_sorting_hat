@@ -15,4 +15,4 @@ Hogwarts sorting hat mobile application gives users the ability to guess the rel
 
 ### Note
 
-Consider that running app on emulator every time gets different getApplicationDocumentsDirectory() so it may cause "can not find file" error because of caching files. If you get it, delete an app from emulator and reinstall it.  
+Consider that running app on emulator every time gets different getApplicationDocumentsDirectory() so it may cause "can not find file" error because of caching files. If you get it, delete an app from emulator and reinstall it. This error will not appear on real device.
